@@ -14,6 +14,9 @@ public class Booking {
 
     private int amountToBePaid;
 
+    public Booking() {
+    }
+
     public Booking(String bookingId, int bookingAadharCard, int noOfRooms, String bookingPersonName, String hotelName) {
         this.bookingId = bookingId;
         this.bookingAadharCard = bookingAadharCard;
@@ -42,7 +45,6 @@ public class Booking {
     }
 
     public void setBookingAadharCard(int bookingAadharCard) {
-
         this.bookingAadharCard = bookingAadharCard;
     }
 
