@@ -42,6 +42,7 @@ public class Booking {
     }
 
     public void setBookingAadharCard(int bookingAadharCard) {
+
         this.bookingAadharCard = bookingAadharCard;
     }
 
